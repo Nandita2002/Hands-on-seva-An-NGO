@@ -1,0 +1,82 @@
+.donation-page {
+  padding: 40px;
+  background-color: #f4f4f4;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.donation-page h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.donation-page p {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group textarea {
+  min-height: 100px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .donation-page {
+    padding: 20px;
+  }
+
+  .donate-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+/* Styles for the "Donate Now" button in the donation section */
+.donate-btn {
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.donate-btn:hover {
+  background-color: #218838;
+}

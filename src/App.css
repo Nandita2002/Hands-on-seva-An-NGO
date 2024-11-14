@@ -1,38 +1,102 @@
-.App {
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5; /* Light background */
+  margin: 0;
+  padding: 0;
+  color: #333333; /* Dark text for readability */
+}
+
+header {
+  background-color: #FFA500; /* Orange */
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  margin: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white; /* White background for sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #008000; /* Green for section headings */
+}
+
+h3 {
+  color: #FFA500; /* Orange for subsection headings */
+}
+
+button {
+  background-color: #FFA500; /* Orange */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #FF8C00; /* Darker orange for hover effect */
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #FFA500; /* Orange border on focus */
+}
+
+footer {
+  background-color: #008000; /* Green */
   color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive design */
+@media (max-width: 600px) {
+  nav {
+      flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav a {
+      margin: 10px 0;
   }
 }

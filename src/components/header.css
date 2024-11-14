@@ -1,0 +1,55 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFA500; /* Orange background */
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.donate-button {
+  background-color: white;
+  color: #FFA500; /* Orange text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.donate-button a {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+.donate-button a:hover {
+  background-color: #f0f0f0; /* Light grey on hover */
+}

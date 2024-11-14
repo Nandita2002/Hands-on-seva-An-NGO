@@ -1,0 +1,16 @@
+.card {
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+img {
+  object-fit: cover; /* Ensure images cover the card area */
+  height: 200px; /* Fixed height for uniformity */
+}
+
+.btn {
+  margin-top: 10px; /* Add some space above the button */
+}
